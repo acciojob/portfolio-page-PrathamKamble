@@ -1,2 +1,25 @@
 
-/* Your CSS Code here. */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    height: 200px;
+    border-radius: 20px;
+}
+
+.main-title{
+    font-size: 50px;
+}
+
+.title{
+    font-size: 30px;
+}
+
+#skills > ol > li,
+#projects > ul > li{
+    font-size: 20px;
+}
+
